@@ -1,0 +1,8 @@
+<h1>Hola {{ title }}</h1>
+
+<button (click)="changeTitle()">Change</button>
+
+
+<!--<mat-slide-toggle>Toggle me!</mat-slide-toggle>-->
+
+<app-product [product]="product" *ngFor="let product of products" ></app-product>
